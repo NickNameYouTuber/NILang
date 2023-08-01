@@ -1,0 +1,30 @@
+// use System.IO
+
+num1 = 5
+num2 = 13
+num3 = num1 + num2 + PI
+
+if (num3 <= (num1 + num2 + PI) && 1 == 1 || 0 == 1) 
+{
+	printl "true"
+	num3 = num3 + 1
+}
+else printl "false"
+
+i = 0
+while i < 3 {
+	i = i + 1
+	printl i
+}
+
+for i = 0, i < 4, i = i + 1 {
+	printl i
+}
+
+function summary(a,b) {
+	return a + b
+}
+
+printl num3
+printl summary(num3, num3)	
+
